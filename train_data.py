@@ -10,7 +10,7 @@ def keys_to_output(keys):
     '''
     Convert keys to a ...multi-hot... array
 
-    [A,W,D] boolean values.
+    [Left arrow, Up arrow ,Right Arror, Ctrl, Alt] boolean values.
     '''
     output = [0,0,0,0,0]
     
